@@ -33,6 +33,11 @@ if pregunta == "1":
 
 elif pregunta == "2":
 
+    print ("\n")
+    for key in mi_diccionario:
+        print (key)
+    print ("\n")
+
     usuario= input("Introduce el nuevo usuario: ")
     servidor= input("Introduce el nombre del servidor: ")
     ip= input("Introduce la ip de conexion: ")
@@ -47,6 +52,12 @@ elif pregunta == "2":
     json.dump (mi_diccionario, open('mijson.json', 'w'), indent = 4)
 
 elif pregunta == "3":
+
+    print ("\n")
+    for key in mi_diccionario:
+        print (key)
+
+    print ("\n")
     del_servidor = input("Introduce el nombre del servidor que quieras borrar: ")
     mi_diccionario.pop(del_servidor)
 
