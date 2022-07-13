@@ -22,6 +22,8 @@ while True :
     pregunta = input("\nElige una opcion:")
 
 
+    #Mostrar y conectarte a servidores
+
     if pregunta == "1":
 
 
@@ -36,6 +38,8 @@ while True :
 
         opcion = input("\nQue quieres hacer?")
 
+        #Conectar a servidor
+
         if opcion == "1":
 
             servidores = input("\nIntroduce el nombre del servidor al que quieres conectarte: ")
@@ -45,6 +49,8 @@ while True :
             cmd = ' ssh ' + usuario  + "@" + conexion
             os.system(cmd)
 
+        #Volver al menu principal
+
         elif opcion == "2":
 
                  print("\nMenu Principal\n")    
@@ -53,9 +59,8 @@ while True :
 
             print("Esa no es una opcion correcta")
 
+    #Añadir nuevo servidor
 
-
-            
     elif pregunta == "2":
 
         print ("\n")
@@ -67,6 +72,8 @@ while True :
         print("2. Volver al menu principal\n")
 
         opcion = input("Elige la opcion que necesites: ")
+
+        #Agregar nuevo servidor
 
         if opcion == "1":
 
@@ -85,9 +92,13 @@ while True :
 
             print("Servidor agregado correctamente")
 
+        #Volver al menu principal
+
         if opcion == "2":
             
-            print("\nMenu Principal\n")      
+            print("\nMenu Principal\n")     
+
+    #Eliminar servidores
 
     elif pregunta == "3":
 
@@ -95,10 +106,12 @@ while True :
         for key in mi_diccionario:
             print (key)
 
-        print("\n1. Nuevo servidor")
+        print("\n1. Borrar un servidor")
         print("2. Volver al menu principal\n")
 
         opcion = input("Elige la opcion que necesites: ")
+
+        #Eliminar servidor
 
         if opcion == "1":
 
@@ -111,8 +124,12 @@ while True :
 
             print("Servidor borrado correctamente")
 
+        #Volver al maenu principal
+
         else:
             print("\nMenu Principal\n")         
+
+    #Salir del programa
 
     elif pregunta=="4":
 
