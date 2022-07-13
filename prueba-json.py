@@ -47,7 +47,7 @@ while True :
 
         elif opcion == "2":
 
-                 mainMenu = False       
+                 print("\nMenu Principal\n")    
 
         else:
 
@@ -85,7 +85,7 @@ while True :
 
         if opcion == "2":
             
-            mainMenu = False     
+            print("\nMenu Principal\n")      
 
     elif pregunta == "3":
 
@@ -108,7 +108,7 @@ while True :
             json.dump (mi_diccionario, open('mijson.json', 'w'), indent = 4)
 
         else:
-            mainMenu = False     
+            print("\nMenu Principal\n")         
 
     elif pregunta=="4":
 
