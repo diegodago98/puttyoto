@@ -83,6 +83,8 @@ while True :
 
             json.dump (mi_diccionario, open('mijson.json', 'w'), indent = 4)
 
+            print("Servidor agregado correctamente")
+
         if opcion == "2":
             
             print("\nMenu Principal\n")      
@@ -106,6 +108,8 @@ while True :
             mi_diccionario.pop(del_servidor)
 
             json.dump (mi_diccionario, open('mijson.json', 'w'), indent = 4)
+
+            print("Servidor borrado correctamente")
 
         else:
             print("\nMenu Principal\n")         
