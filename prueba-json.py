@@ -113,7 +113,7 @@ while True :
     elif pregunta=="4":
 
         print("Hasta pronto!")
-        print(os._exit(0))    
+        break  
 
     else:
         print("Esa no es una opción valida")
