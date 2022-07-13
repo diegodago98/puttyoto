@@ -1,26 +1,10 @@
 {
-    "EDP Solar PRO": {
-        "ip": "10.240.9.23",
-        "user": "EX117753"
+    "Servidor1": {
+        "ip": "10.0.0.1",
+        "user": "usuario1"
     },
-    "EDP Solar PRE": {
-        "ip": "10.240.7.5",
-        "user": "EX117753"
-    },
-    "EDP Eredes PRE": {
-        "ip": "10.240.9.21",
-        "user": "EX117753"
-    },
-    "EDP Eredes PRO": {
-        "ip": "10.240.7.1",
-        "user": "EX117753"
-    },
-    "EDP Clientes PRO": {
-        "ip": "10.240.9.9",
-        "user": "EX117753"
-    },
-    "EDP Clientes PRE": {
-        "user": "EX117753",
-        "ip": "10.240.9.20"
+    "Servidor2": {
+        "ip": "10.0.0.2",
+        "user": "usuario2"
     }
 }
